@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Base Convertor</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <section class="outter">
+        <h1 id="mainHeader">Number Convertor</h1>
+        <div class="inputView">
+            <div class="in1">
+                <label for="inputSelec">Enter a input Base</label>
+                <select name="Base" id="inputSelec">
+                    <option value="2">Binary</option>
+                    <option value="8">Octale</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">Hexadecimal</option>
+                </select>
+            </div>
+            <div class="out1">
+                <label for="outputSelec">Enter a output Base</label>
+                <select name="Base" id="outputSelec">
+                    <option value="2">Binary</option>
+                    <option value="8">Octale</option>
+                    <option value="10">Decimal</option>
+                    <option value="16">Hexadecimal</option>
+                </select>
+            </div>
+        </div>
+        <fieldset>
+
+            <legend>Input</legend>
+            <textarea placeholder="Enter Input here.." name="jak" id="txtInput"></textarea>
+        </fieldset>
+        <fieldset>
+
+            <legend>Output</legend>
+            <textarea disabled   id="txtOutput"></textarea>
+        </fieldset>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="anyBaseToDecimal.js"></script>
+    <script src="decimalToAnyBaseConvertor.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
